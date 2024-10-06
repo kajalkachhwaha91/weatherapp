@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WHETHER_APP</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        font-family: 'poppins','sarif';
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #222;
+    }
+    .card{
+        width: 90%;
+        max-width: 470px;
+        background: linear-gradient(135deg,#00feba,#5b548a);
+        color: #fff;
+        margin: 100px auto 0;
+        border-radius: 20px;
+        padding: 40px 35px;
+        text-align: center;
+    }
+    .search{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    .search input{
+        outline: 0%;
+        border: 0%;
+        background: #ebfffc;
+        color: #555;
+        padding: 10px 25px;
+        height: 60px;
+        border-radius: 30px;
+        flex: 1;
+        margin-right: 16px;
+        font-size: 18px;
+    }
+    .search button{
+        outline: 0%;
+        border: 0%;
+        background: #ebfffc;
+        border-radius: 50%;
+        height: 60px;
+         width: 60px;
+         cursor: pointer;
+    }
+    .search img{
+        width: 16px;
+    }
+    .whether-icon{
+        width: 110px;
+        margin-top: 30px;
+    }
+</style>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter your city" spellcheck="false">
+            <button><img src="images\search.png" alt="searchbutton"></button>
+        </div>
+        <div class="whether">
+            <img src="images\rain.png" alt="rain" class="whether-icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">new yock</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images\humidity.png" alt="humidity">
+                    <div>
+            <p class="humidity">50%</p>
+            <p>humidity</p>
+                    </div>
+                    <div class="col">
+                        <img src="images\wind.png" alt="humidity">
+                        <div>
+                <p class="wind">40 km/hr</p>
+                <p>wind</p>
+                        </div>
+
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
